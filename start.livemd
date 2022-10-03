@@ -93,9 +93,9 @@ livebook server start.livemd
   * [Ranges](reading/ranges.livemd)
   * [Enum](reading/enum.livemd)
 * Exercises
-  * [FizzBuzz](exercises/fizzbuzz.livemd)
+  * [FizzBuzz](exercises/fizzbuzz.livemd) *
   * [Named Number Lists](exercises/named_number_lists.livemd)
-  * [Counting Votes](exercises/counting_votes.livemd)
+  * [Counting Votes](exercises/counting_votes.livemd) *
   * Bonus: [Measurements](exercises/measurements.livemd)
   * Bonus: [A Safe Range](exercises/saferange.livemd)
 
@@ -106,9 +106,9 @@ livebook server start.livemd
 * Reading
   * [Polymorphism](reading/polymorphism.livemd)
   * [Guards](reading/guards.livemd)
-  * [Pattern Matching](reading/pattern_matching.livemd)
+  * [Pattern Matching](reading/pattern_matching.livemd) *
 * Exercises
-  * [Treasure Matching](exercises/treasure_matching.livemd)
+  * [Treasure Matching](exercises/treasure_matching.livemd) *
   * [Rock Paper Scissors Pattern Matching](exercises/rps_pattern_matching.livemd)
   * [Metric Conversion](exercises/metric_conversion.livemd)
   * [Currency Conversion](exercises/currency_conversion.livemd)
