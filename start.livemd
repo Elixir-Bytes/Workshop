@@ -1,6 +1,6 @@
-# Course Outline
+# Workshop Intro
 
-## Overview
+## Check Installation
 
 Use the following index to find reading material and exercises for this course.
 
@@ -30,22 +30,7 @@ Then restart your livebook server. You can stop the server using <kbd>CTRL</kbd>
 livebook server start.livemd
 ```
 
-## Core Syntax
-
-### Course Tools
-
-* Reading
-  * [Command Line](reading/command_line.livemd)
-  * [Git](reading/git.livemd)
-  * [Livebook](reading/livebook.livemd)
-  * [Code Editors](reading/code_editors.livemd)
-* Exercises
-  * [Command Line Family Tree](exercises/command_line_family_tree.livemd)
-  * [Livebook Recovery](exercises/livebook_recovery.livemd)
-  * [GitHub Engineering Journal](exercises/github_engineering_journal.livemd)
-  * [GitHub Collab](exercises/github_collab.livemd)
-
-<!-- livebook:{"break_markdown":true} -->
+## Day 1 - Elixir
 
 ### Basics
 
@@ -56,6 +41,8 @@ livebook server start.livemd
   * [Booleans](reading/booleans.livemd)
   * [Comparison Operators](reading/comparison_operators.livemd)
   * [Match Operator](reading/match_operator.livemd)
+  * [Atoms](reading/atoms.livemd)
+  * [Tuples](reading/tuples.livemd)
 * Exercises
   * [Fun Formulas](exercises/fun_formulas.livemd)
   * [Card Counting](exercises/card_counting.livemd)
@@ -68,8 +55,6 @@ livebook server start.livemd
 ### Data Structures and Intro to Pattern Matching
 
 * Reading
-  * [Atoms](reading/atoms.livemd)
-  * [Tuples](reading/tuples.livemd)
   * [Lists](reading/lists.livemd)
   * [Keyword Lists](reading/keyword_lists.livemd)
   * [Maps](reading/maps.livemd)
@@ -103,7 +88,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### Enumeration 1
+### Enumeration
 
 * Reading
   * [Ranges](reading/ranges.livemd)
@@ -117,45 +102,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### Enumeration 2
-
-* Reading
-  * [Enumerating on Non-Enumerables](reading/non_enumerables.livemd)
-  * [Comprehensions](reading/comprehensions.livemd)
-* Exercises
-  * [Anagram](exercises/anagram.livemd)
-  * [Item Search](exercises/item_search.livemd) (NEEDS REVIEW)
-  * Bonus: [Custom Enum With Reduce](exercises/custom_enum_with_reduce.livemd)
-  * Bonus: [Bottles of Soda](exercises/bottles_of_soda.livemd)
-
-## Week 2: Built-In Tools
-
-### 1. Built-In Modules
-
-* Reading
-  * [Built-In Modules](reading/built-in_modules.livemd)
-* Exercises
-  * [Weighted Voting](exercises/weighted_voting.livemd)
-  * [Number Finder](exercises/number_finder.livemd)
-  * [Filter Values By Type](exercises/filter_values_by_type.livemd)
-  * [Bingo Winner](exercises/bingo_winner.livemd)
-  * Bonus: [Tic-tac-toe](exercises/tic-tac-toe.livemd)
-  * Bonus: [Number Wordle](exercises/number_wordle.livemd) (NEEDS REVIEW)
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 2. Dates and Time
-
-* Reading
-  * [Dates and Times](reading/datetime.livemd)
-* Exercises
-  * [Itinerary](exercises/itinerary.livemd)
-  * [Timeline](exercises/timeline.livemd)
-  * [School Grades](exercises/school_grades.livemd)
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 3. Guards, Pattern Matching
+### Guards, Pattern Matching
 
 * Reading
   * [Polymorphism](reading/polymorphism.livemd)
@@ -169,7 +116,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 4. String Manipulation
+### String Manipulation
 
 * Reading
   * [Bitstrings](reading/bitstrings.livemd)
@@ -184,7 +131,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 5. Protocols, and Behaviors.
+### Protocols, and Behaviors.
 
 * Reading
   * [Protocols](reading/protocols.livemd)
@@ -195,23 +142,9 @@ livebook server start.livemd
   * [Math](exercises/math.livemd)
   * [Battle Map](exercises/battle_map.livemd)
 
-## Week 3: Performance, Persistence, and Processes
-
-### 1. Recursion
-
-* Reading
-  * [Computer Hardware](reading/computer_hardware.livemd)
-  * [Benchmarking](reading/benchmarking.livemd)
-  * [Recursion](reading/recursion.livemd)
-* Exercises
-  * [Custom Enum](exercises/custom_enum_with_recursion.livemd)
-  * [Lucas Numbers](exercises/lucas_numbers.livemd)
-  * [Factorial](exercises/factorial.livemd)
-  * [Anagram Solver](exercises/anagram_solver.livemd)
-
 <!-- livebook:{"break_markdown":true} -->
 
-### 2. Performance Optimization
+### Performance Optimization
 
 * Reading
   * [Big O Notation](reading/big_o_notation.livemd)
@@ -225,11 +158,11 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 3. Files and Data Validation
+### Files and Data Validation
 
 * Reading
   * [File](reading/file.livemd)
-  * [Ecto Changeset](reading/ecto_changeset.livemd)
+  * [Ecto Changeset](reading/ecto_changeset.livemd) *
 * Exercises
   * [Save Game](exercises/save_game.livemd)
   * [File System Todo App](exercises/file_system_todo_app.livemd)
@@ -239,11 +172,11 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 4. Processes
+### Processes
 
 * Reading
-  * [Processes](reading/processes.livemd)
-  * [Generic Server](reading/generic_server.livemd)
+  * [Processes](reading/processes.livemd) *
+  * [Generic Server](reading/generic_server.livemd) *
 * Exercises
   * [Traffic Light Server](exercises/traffic_light_server.livemd)
   * [Rock Paper Scissors GenServer](exercises/rock_paper_scissors_genserver.livemd)
@@ -251,20 +184,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 5. Agent, Task, and ETS
-
-* Reading
-  * [Task](reading/task.livemd)
-  * [Caching: Agent and ETS](reading/caching_agent_ets.livemd)
-* Exercises
-  * [Inventory Management](exercises/inventory_management.livemd)
-  * [Smart Cache](exercises/smart_cache.livemd)
-  * [Concurrent Image Processing](exercises/concurrent_image_processing.livemd)
-  * [Kitchen Queue](exercises/kitchen_queue.livemd)
-
-## Week 4: Mix Projects
-
-### 1. Elixir Build Tooling
+### Elixir Build Tooling
 
 * Reading
   * [Scripts](reading/scripts.livemd)
@@ -277,7 +197,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 2. ExUnit & Testing
+### ExUnit & Testing
 
 * Reading
   * [ExUnit](reading/exunit.livemd)
@@ -291,7 +211,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 3. Supervisor Basics and Fault Tolerance
+### Supervisor Basics and Fault Tolerance
 
 * Reading
   * [Supervisors](reading/supervisors.livemd)
@@ -304,7 +224,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 4. Relational Database Management Systems and Ecto
+### Relational Database Management Systems and Ecto
 
 * Reading
   * [Relational Database Management Systems](reading/rdbms.livemd)
@@ -315,33 +235,13 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 5. Group Project
+### Day 1 Project
 
 * [Rubix Cube](exercises/rubix_cube.livemd)
 
-## Week 5: Web Servers and Phoenix
+## Day 2 - The web
 
-### 1. HTML & CSS
-
-* Reading
-  * [HTML + CSS](reading/html_css.livemd)
-* Exercises
-  * [Home Page](exercises/home_page.livemd)
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 2. APIs & Parsing JSON
-
-* Reading
-  * [APIs](reading/apis.livemd)
-* Exercises
-  * [Public Chat API](exercises/public_chat_api.livemd)
-  * [Spoonacular Recipe API](exercises/spoonacular_recipe_api.livemd)
-  * [Pokemon API](exercises/pokemon_api.livemd)
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 3. Phoenix
+### Phoenix
 
 * Reading
   * [Web Servers](reading/web_servers.livemd)
@@ -351,7 +251,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 4. Phoenix and Ecto
+### Phoenix and Ecto
 
 * Reading
   * [Phoenix and Ecto](reading/phoenix_and_ecto.livemd)
@@ -360,25 +260,16 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 5. Phoenix Authentication
+### Phoenix Authentication
 
 * Reading
   * [Phoenix Authentication](reading/phoenix_authentication.livemd)
 * Exercises
   * [Portfolio: Authenticated Blog Page](exercises/portfolio_auth_blog_page.livemd)
 
-## Week 6: Ecto Associations
-
-### 1. Testing Phoenix
-
-* Reading
-  * [BookSearch: Authors](reading/book_search_authors.livemd)
-* Exercises
-  * [Porfolio: Blog Search](exercises/portfolio_blog_search.livemd)
-
 <!-- livebook:{"break_markdown":true} -->
 
-### 2. Phoenix and Ecto One-to-Many Relationships
+### Phoenix and Ecto One-to-Many Relationships
 
 * Reading
   * [BookSearch: Books](reading/book_search_books.livemd)
@@ -387,47 +278,16 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 3. Phoenix and Ecto Many-to-Many Relationships
-
-* Reading
-  * [BookSearch: Tags](reading/book_search_tags.livemd)
-* Exercises
-  * [Portfolio: Tags](exercises/portfolio_tags.livemd)
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 4. Phoenix and Ecto One-to-One Relationships
-
-* Reading
-  * [BookSearch: Book Content](reading/book_search_book_content.livemd)
-* Reading
-  * [Porfolio: Previews](reading/book_search_previews)
-
-### 5. Tailwind
+### Tailwind
 
 * Reading
   * [Tailwind CSs](reading/tailwind_css.livemd)
 * Exercises
-  * [Tailwind CSS Components](exercises/tailwind_css_components.livemd)
-
-## Week 7: LiveView
-
-### 1. UX/UI Design + Accessibility
-
-* Reading
-  * UI/UX and Accessibility
-    * UI/UX
-    * Pen * Paper Prototyping
-    * Figma & Mocks
-    * Accessibility
-    * Axe, ColorZilla Color Combinations: https://toolness.GitHub.io/accessible-color-matrix/
-* Exercises
-  * [Portfolio: Mock](exercises/portfolio_mock.livemd)
-  * BONUS: [Capstone Project: Mock](exercises/capstone_project_mock.livemd)
+  * [Tailwind CSS Components](exercises/tailwind_css_components.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 2. Phoenix LiveView
+### Phoenix LiveView
 
 * Reading
   * [LiveView](reading/liveview.livemd)
@@ -437,7 +297,7 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 3. Phoenix Forms
+### Phoenix Forms
 
 * Reading
   * Chat App
@@ -446,134 +306,6 @@ livebook server start.livemd
 
 <!-- livebook:{"break_markdown":true} -->
 
-### 4. PubSub & Channels
+### Final Project
 
-* Reading
-  * Multiplayer Rock Paper Scissors
-* Exercises
-  * [Shield, Shoot, Reload]()
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 5. GraphQL & Absinthe (+ Testing Patterns)
-
-* Reading
-  * GraphQL
-  * Absinthe
-* Exercises
-  * Recipe App
-  * Music Search App w/ GraphQL
-
-## Week 8: Quality Assurance
-
-### 1. TDD Techniques (Red Green Refactor)
-
-* Reading
-  * TDD & Refactoring
-  * Code Clarity
-  * Mix Testing Tools
-* Exercises
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 2. Metrics, Telemetry, Live Dashboard
-
-* Reading
-  * Telemetry
-  * Live Dashboard
-* Exercises
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 3. Factories & Mocks
-
-* Reading
-  * Factories with ExMachina
-  * Mocks with Mox
-* Exercises
-  * Blog App Factory
-  * Music App Factory
-  * Twilio SMS App
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 4. Property Based Testing (Stream Data) + E2E Testing (Wallaby)
-
-* Reading
-  * Property Based Testing With Stream Data
-  * End-To-End Testing With Wallaby
-* Exercises
-  * Test Music Filters
-  * E2E Test Rock Paper Scissors App
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 5. CI/CD, Code Coverage, GitHub Actions & Hooks
-
-* Reading
-  * CI/CD
-  * GitHub Actions * Hooks
-  * Code Coverage
-* Exercises
-  * Rock Paper Scissors Pre-Commit Credo hook
-  * Rock Paper Scissors Pre-Push Test hook
-  * Rock Paper Scissors Code Coverage
-  * Rock Paper Scissors CI/CD Setup
-
-## Week 9 (Group Project)
-
-### 1. Software & Product Management (Agile, StandUps, Kanban)
-
-### 2. Architecture Design & Patterns (Diagrams, UML, CQRS/ES, Contexts, MVC)
-
-### 3. Advanced Livebook (Graphs, Tables, Connecting Projects)
-
-### 4. Open Source Patterns & Advanced GitHub (PRs, Forking, Cloning, Issues, Rebasing)
-
-### 5. Group Project Start
-
-## Week 10
-
-### 1. Group Project Presentation
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 2. Emailing & Swoosh
-
-* Reading
-* Exercises
-  * Contact Form On the Blog Site.
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 3. Oban
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 3. Designing Elixir Systems
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 4. Advanced Livebook
-
-## Week 11: Elixir Applications in Production
-
-### 1. Umbrella Projects
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 2. Genserver Bottlenecks
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 3. Worker Pools
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 4. Nodes & Clustering
-
-<!-- livebook:{"break_markdown":true} -->
-
-### 5. Deployment
-
-## Week 12: (Final Project)
+TBD
