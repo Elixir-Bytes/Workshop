@@ -38,7 +38,137 @@ We'll represent these choices as atoms `:rock, :paper, :scissors, :lizard, :spoc
 
 You're going to create a `RockPaperScissorsLizardSpock` module. Implement the functions as documented.
 
+<!-- livebook:{"attrs":{"assertions":"assert RockPaperScissorsLizardSpock.beats?(:rock, :lizard)\nassert RockPaperScissorsLizardSpock.beats?(:spock, :scissors)\nassert RockPaperScissorsLizardSpock.beats?(:scissors, :lizard)\nassert RockPaperScissorsLizardSpock.beats?(:lizard, :paper)\nassert RockPaperScissorsLizardSpock.beats?(:paper, :spock)\nassert RockPaperScissorsLizardSpock.beats?(:spock, :rock)\n\nrefute RockPaperScissorsLizardSpock.beats?(:lizard, :rock)\nrefute RockPaperScissorsLizardSpock.beats?(:scissors, :spock)\nrefute RockPaperScissorsLizardSpock.beats?(:lizard, :scissors)\nrefute RockPaperScissorsLizardSpock.beats?(:paper, :lizard)\nrefute RockPaperScissorsLizardSpock.beats?(:spock, :paper)\nrefute RockPaperScissorsLizardSpock.beats?(:rock, :spock)","attempts":4,"code":"defmodule RockPaperScissorsLizardSpock do\n  @moduledoc \"\"\"\n  Rock Paper Scissors Lizard Spock Game\n  \"\"\"\n\n  @doc \"\"\"\n  Returns `true` if the first guess beats the second, and `false` otherwise.\n\n  ## Winning Examples\n\n    iex> RockPaperScissorsLizardSpock.beats?(:rock, :lizard)\n    true\n    iex> RockPaperScissorsLizardSpock.beats?(:spock, :scissors)\n    true\n    iex> RockPaperScissorsLizardSpock.beats?(:scissors, :lizard)\n    true\n    iex> RockPaperScissorsLizardSpock.beats?(:lizard, :paper)\n    true\n    iex> RockPaperScissorsLizardSpock.beats?(:paper, :spock)\n    true\n    iex> RockPaperScissorsLizardSpock.beats?(:spock, :rock)\n    true\n\n  ## Losing Examples\n\n    iex> RockPaperScissorsLizardSpock.beats?(:lizard, :rock)\n    false\n    iex> RockPaperScissorsLizardSpock.beats?(:scissors, :spock)\n    false\n    iex> RockPaperScissorsLizardSpock.beats?(:lizard, :scissors)\n    false\n    iex> RockPaperScissorsLizardSpock.beats?(:paper, :lizard)\n    false\n    iex> RockPaperScissorsLizardSpock.beats?(:spock, :paper)\n    false\n    iex> RockPaperScissorsLizardSpock.beats?(:rock, :spock)\n    false\n  \"\"\"\n  def beats?(guess1, guess2) do\n  end\n\n  @doc \"\"\"\n  Return \"Player 1 Wins!\", \"Player 2 Wins!\", or \"Draw\" depending on which player guess won.\n\n  ## Examples\n\n    iex> RockPaperScissorsLizardSpock.play(:lizard, :rock)\n    \"Player 2 Wins!\"\n\n    iex> RockPaperScissorsLizardSpock.play(:rock, :lizard)\n    \"Player 1 Wins!\"\n  \"\"\"\n  def play(player1, player2) do\n  end\nend","solution":"","title":"RockPaperScissorsLizardSpock Tests"},"kind":"Elixir.TestedCell","livebook_object":"smart_cell"} -->
+
 ```elixir
+ExUnit.start(auto_run: false)
+
+defmodule Assertion do
+  use ExUnit.Case
+
+  test "RockPaperScissorsLizardSpock Tests" do
+    try do
+      Process.flag(:trap_exit, true)
+
+      defmodule RockPaperScissorsLizardSpock do
+        @moduledoc """
+        Rock Paper Scissors Lizard Spock Game
+        """
+
+        @doc """
+        Returns `true` if the first guess beats the second, and `false` otherwise.
+
+        ## Winning Examples
+
+          iex> RockPaperScissorsLizardSpock.beats?(:rock, :lizard)
+          true
+          iex> RockPaperScissorsLizardSpock.beats?(:spock, :scissors)
+          true
+          iex> RockPaperScissorsLizardSpock.beats?(:scissors, :lizard)
+          true
+          iex> RockPaperScissorsLizardSpock.beats?(:lizard, :paper)
+          true
+          iex> RockPaperScissorsLizardSpock.beats?(:paper, :spock)
+          true
+          iex> RockPaperScissorsLizardSpock.beats?(:spock, :rock)
+          true
+
+        ## Losing Examples
+
+          iex> RockPaperScissorsLizardSpock.beats?(:lizard, :rock)
+          false
+          iex> RockPaperScissorsLizardSpock.beats?(:scissors, :spock)
+          false
+          iex> RockPaperScissorsLizardSpock.beats?(:lizard, :scissors)
+          false
+          iex> RockPaperScissorsLizardSpock.beats?(:paper, :lizard)
+          false
+          iex> RockPaperScissorsLizardSpock.beats?(:spock, :paper)
+          false
+          iex> RockPaperScissorsLizardSpock.beats?(:rock, :spock)
+          false
+        """
+        def beats?(guess1, guess2) do
+        end
+
+        @doc """
+        Return "Player 1 Wins!", "Player 2 Wins!", or "Draw" depending on which player guess won.
+
+        ## Examples
+
+          iex> RockPaperScissorsLizardSpock.play(:lizard, :rock)
+          "Player 2 Wins!"
+
+          iex> RockPaperScissorsLizardSpock.play(:rock, :lizard)
+          "Player 1 Wins!"
+        """
+        def play(player1, player2) do
+        end
+      end
+
+      assert RockPaperScissorsLizardSpock.beats?(:rock, :lizard)
+      assert RockPaperScissorsLizardSpock.beats?(:spock, :scissors)
+      assert RockPaperScissorsLizardSpock.beats?(:scissors, :lizard)
+      assert RockPaperScissorsLizardSpock.beats?(:lizard, :paper)
+      assert RockPaperScissorsLizardSpock.beats?(:paper, :spock)
+      assert RockPaperScissorsLizardSpock.beats?(:spock, :rock)
+
+      refute RockPaperScissorsLizardSpock.beats?(:lizard, :rock)
+      refute RockPaperScissorsLizardSpock.beats?(:scissors, :spock)
+      refute RockPaperScissorsLizardSpock.beats?(:lizard, :scissors)
+      refute RockPaperScissorsLizardSpock.beats?(:paper, :lizard)
+      refute RockPaperScissorsLizardSpock.beats?(:spock, :paper)
+      refute RockPaperScissorsLizardSpock.beats?(:rock, :spock)
+    catch
+      error ->
+        flunk("""
+          Your solution threw the following error:
+
+          #{inspect(error)}
+        """)
+
+      :exit, {error, {GenServer, message_type, [_pid, message, _timeout]}} ->
+        flunk("""
+            GenServer crashed with the following error:
+
+            #{inspect(error)}
+
+            When it recieved: #{inspect(message)} #{message_type}
+
+            Likely you need to define the corresponding handler for #{inspect(message)}.
+
+            Ensure you defined a handle_call/3, handle_info/2, or handle_cast/2 or appropriate handler function.
+
+              def handle_call(:message, _from, state) do
+                ...
+              end
+
+            Also ensure you call GenServer.call/2, GenServer.cast/2, or otherwise send the message correctly.
+
+              GenServer.call(pid, :message)
+        """)
+
+      :exit, error ->
+        flunk("""
+          Unhandled exit with the following error:
+
+          #{inspect(error)}
+        """)
+    after
+      # all warnings and errors are printed to the previous Kino Frame
+      # to avoid cluttering the test results display.
+      Process.sleep(10)
+      Kino.render(Kino.Markdown.new("### Test Results 
+<hr/>"))
+    end
+  end
+end
+
+ExUnit.run()
+
+# Make variables and modules defined in the test available.
+# Also allows for exploration using the output of the cell.
+# Unfortunately, this results in duplication of warnings.
 defmodule RockPaperScissorsLizardSpock do
   @moduledoc """
   Rock Paper Scissors Lizard Spock Game

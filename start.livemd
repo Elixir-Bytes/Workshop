@@ -71,8 +71,8 @@ livebook server start.livemd
   * [Functions](reading/functions.livemd)
   * [Control Flow](reading/control_flow.livemd)
 * Exercises
-  * [Naming Numbers](exercises/naming_numbers.livemd)
-  * [Rock Paper Scissors](exercises/rock_paper_scissors.livemd)
+  * [Naming Numbers](exercises/naming_numbers.livemd) *
+  * [Rock Paper Scissors](exercises/rock_paper_scissors.livemd) *
 
 <!-- livebook:{"break_markdown":true} -->
 
@@ -80,7 +80,7 @@ livebook server start.livemd
 
 * Reading
   * [Modules](reading/modules.livemd)
-  * [Structs](reading/structs.livemd)
+  * [Structs](reading/structs.livemd) * hero exercise
 * Exercises
   * [Rock Paper Scissors Lizard Spock](exercises/rock_paper_scissors_lizard_spock.livemd)
   * [RPG Dialogue](exercises/rpg_dialogue.livemd)
