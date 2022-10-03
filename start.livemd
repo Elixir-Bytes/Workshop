@@ -82,8 +82,7 @@ livebook server start.livemd
   * [Modules](reading/modules.livemd)
   * [Structs](reading/structs.livemd) * hero exercise
 * Exercises
-  * [Rock Paper Scissors Lizard Spock](exercises/rock_paper_scissors_lizard_spock.livemd)
-  * [RPG Dialogue](exercises/rpg_dialogue.livemd)
+  * [Rock Paper Scissors Lizard Spock](exercises/rock_paper_scissors_lizard_spock.livemd) *
   * Bonus: [Pokemon Battle](exercises/pokemon_battle.livemd)
 
 <!-- livebook:{"break_markdown":true} -->
