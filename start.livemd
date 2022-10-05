@@ -187,8 +187,8 @@ livebook server start.livemd
 
 * Reading
   * [Scripts](reading/scripts.livemd)
-  * [Mix](reading/mix.livemd)
-  * [IEx](reading/iex.livemd)
+  * [Mix](reading/mix.livemd) *
+  * [IEx](reading/iex.livemd) *
 * Exercises
   * [Snowman Script](exercises/snowman_script.livemd)
   * [Journal CLI](exercises/journal_cli.livemd)
