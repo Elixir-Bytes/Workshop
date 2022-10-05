@@ -278,9 +278,7 @@ server_process = spawn(fn -> ServerProcess.loop() end)
 
 We've used [Enum.random/1](https://hexdocs.pm/elixir/Enum.html#random/1) to show that the process continues to loop and receive messages.
 
-```elixir
-send(server_process, "message")
-```
+<!-- livebook:{"break_markdown":true} -->
 
 With a slight modification of the `ServerProcess`, we can store state!
 

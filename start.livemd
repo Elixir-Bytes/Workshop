@@ -177,8 +177,8 @@ livebook server start.livemd
   * [Processes](reading/processes.livemd) *
   * [Generic Server](reading/generic_server.livemd) *
 * Exercises
-  * [Traffic Light Server](exercises/traffic_light_server.livemd)
-  * [Rock Paper Scissors GenServer](exercises/rock_paper_scissors_genserver.livemd)
+  * [Traffic Light Server](exercises/traffic_light_server.livemd) * hard
+  * [Rock Paper Scissors GenServer](exercises/rock_paper_scissors_genserver.livemd) * maybe project
   * [Pokemon Server](exercises/pokemon_server.livemd)
 
 <!-- livebook:{"break_markdown":true} -->
