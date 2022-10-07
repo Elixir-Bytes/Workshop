@@ -69,7 +69,7 @@ livebook server start.livemd
 
 * Reading
   * [Functions](reading/functions.livemd)
-  * [Control Flow](reading/control_flow.livemd)
+  * [Control Flow](reading/control_flow.livemd) *
 * Exercises
   * [Naming Numbers](exercises/naming_numbers.livemd) *
   * [Rock Paper Scissors](exercises/rock_paper_scissors.livemd) *
@@ -79,8 +79,8 @@ livebook server start.livemd
 ### Modules and Structs
 
 * Reading
-  * [Modules](reading/modules.livemd)
-  * [Structs](reading/structs.livemd) * hero exercise
+  * [Modules](reading/modules.livemd) *
+  * [Structs](reading/structs.livemd) * exercise
 * Exercises
   * [Rock Paper Scissors Lizard Spock](exercises/rock_paper_scissors_lizard_spock.livemd) *
   * Bonus: [Pokemon Battle](exercises/pokemon_battle.livemd)
@@ -91,7 +91,7 @@ livebook server start.livemd
 
 * Reading
   * [Ranges](reading/ranges.livemd)
-  * [Enum](reading/enum.livemd)
+  * [Enum](reading/enum.livemd) *
 * Exercises
   * [FizzBuzz](exercises/fizzbuzz.livemd) *
   * [Named Number Lists](exercises/named_number_lists.livemd)
@@ -108,7 +108,7 @@ livebook server start.livemd
   * [Guards](reading/guards.livemd)
   * [Pattern Matching](reading/pattern_matching.livemd) *
 * Exercises
-  * [Treasure Matching](exercises/treasure_matching.livemd) *
+  * [Treasure Matching](exercises/treasure_matching.livemd)
   * [Rock Paper Scissors Pattern Matching](exercises/rps_pattern_matching.livemd)
   * [Metric Conversion](exercises/metric_conversion.livemd)
   * [Currency Conversion](exercises/currency_conversion.livemd)
@@ -240,6 +240,17 @@ livebook server start.livemd
 
 ## Day 2 - The web
 
+### APIs & Parsing JSON
+
+* Reading
+  * [APIs](reading/apis.livemd)
+* Exercises
+  * [Public Chat API](exercises/public_chat_api.livemd)
+  * [Spoonacular Recipe API](exercises/spoonacular_recipe_api.livemd)
+  * [Pokemon API](exercises/pokemon_api.livemd)
+
+<!-- livebook:{"break_markdown":true} -->
+
 ### Phoenix
 
 * Reading
@@ -280,9 +291,9 @@ livebook server start.livemd
 ### Tailwind
 
 * Reading
-  * [Tailwind CSs](reading/tailwind_css.livemd)
+  * [Tailwind CSS](reading/tailwind_css.livemd)
 * Exercises
-  * [Tailwind CSS Components](exercises/tailwind_css_components.livemd
+  * [Tailwind CSS Components](exercises/tailwind_css_components.livemd)
 
 <!-- livebook:{"break_markdown":true} -->
 
